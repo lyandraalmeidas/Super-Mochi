@@ -93,6 +93,9 @@ body{
             font-family: Arial;
             font-weight: bold;
             color: #413333; 
+            p{
+                margin: 10px;
+            }
         }
         .Biografia {
             margin: 30px;
@@ -101,14 +104,22 @@ body{
             font-family: Arial;
             font-weight: bold;
             color: #413333; 
+            p{
+                margin: 10px;
+            }
         }
-       .historia{
-        .img-banner-historia{
+       .Profile{
+        text-align: center;
+        margin: 30px;
+        font-size: 16px;
+        font-family: Arial;
+        font-weight: bold;
+        color: #413333;
+        .perfil{
             margin: 10px;
-            border-radius: 20px;
-            width: 95%;
-            height: auto;
-            border: #332828 5px solid;
+            border-radius: 50%;
+            width: 350px;
+            height: 350px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         }
         }
