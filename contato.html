@@ -5,7 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title> Super Mochi Web </title>
-        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/contato.css">
         <link href="Images/polvo.png" rel="shortcut icon">
 
     </head>
@@ -44,7 +44,21 @@
             </nav>
         </header>
         <main>
-           
+            <section class="contact-form">
+                <h2>Entre em Contato</h2>
+                <form id="form">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
+        
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+        
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Digite sua mensagem" required></textarea>
+        
+                    <button type="submit">Enviar</button>
+                </form>
+            </section>
         </main>
         <footer>
             <img src="Images/polvo.png" alt="Logo do site" class="Logo">
@@ -62,5 +76,36 @@
                 <p> Discord - @techna_dev </p>
             </div>
         </footer>
+        <script>
+            document.getElementById("form").addEventListener("submit", function (event) {
+                event.preventDefault(); 
+                
+                const name = document.getElementById("name").value.trim();
+                const email = document.getElementById("email").value.trim();
+                const message = document.getElementById("message").value.trim();
+
+                
+                if (name === "" || email === "" || message === "") {
+                    alert("Por favor, preencha todos os campos.");
+                    return;
+                }
+
+                if (!validateEmail(email)) {
+                    alert("Por favor, insira um e-mail válido.");
+                    return;
+                }
+
+                alert("Mensagem enviada com sucesso! Obrigado por entrar em contato.");
+
+                document.getElementById("form").reset();
+            });
+
+      
+            function validateEmail(email) {
+            
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return emailRegex.test(email);
+            }
+        </script>
     </body>
 </html>
