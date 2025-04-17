@@ -76,105 +76,47 @@ body{
         background-color: #fce4e4;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-        .banner{
+        .historia{
+            margin: 10px;
+            border-radius: 20px;
+            background-color: #ccb5b5;
+            padding: 20px;
+            text-align: center;
+            font-size: 16px;
+            font-family: Arial;
+            font-weight: bold;
+            color: #413333;
+            p, h2{
+                margin: 20px;
+            }
+            h2{
+                color: #413333;
+                text-align: center;
+                padding: 10px;
+                font-size: 24px;
+                font-family: Arial;
+                font-weight: bold;
+            }
+        }
+        .banner-historia{
+            P{
+                text-align: center;
+                margin: 20px;
+                font-size: 16px;
+                font-family: Arial;
+                font-weight: bold;
+                color: #413333;
+            }
             .img-banner{
                 margin: 10px;
                 border-radius: 20px;
-                width: 100%;
+                width: 95%;
                 height: auto;
                 border: #332828 5px solid;
                 box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
             }
-        }
-        .Sobre{
-            background-color: #ccb5b5;
-            border-radius: 20px;
-            margin: 40px;
-            text-align: left;
-            font-size: 16px;
-            font-family: Arial;
-            font-weight: bold;
-            color: #413333; 
-            p, h2{
-                margin: 20px;
-            }
-            h2{
-                text-align: center;
-                font-size: 24px;
-                font-family: Arial;
-                font-weight: bold;
-            }
-        }
-        .Biografia {
-            background-color: #ccb5b5;
-            border-radius: 20px;
-            margin: 20px;
-            text-align: left;
-            font-size: 16px;
-            font-family: Arial;
-            font-weight: bold;
-            color: #413333; 
-            p, h2{
-                margin: 20px;
-            }
-            h2{
-                text-align: center;
-                font-size: 24px;
-                font-family: Arial;
-                font-weight: bold;
-            }
-        }
-       .Profile{
-        text-align: center;
-        margin: 30px;
-        font-size: 16px;
-        font-family: Arial;
-        font-weight: bold;
-        color: #413333;
-        .perfil{
-            margin: 10px;
-            border-radius: 50%;
-            width: 350px;
-            height: 350px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-        }
-        }
-        .Polvo{
-            .polvo{
-                margin: 10px;
-                border-radius: 20px;
-                width: 500px;
-                height: auto;    
-            }
-        }
-        .creditos{
-            background-color: #ccb5b5;
-            border-radius: 20px;
-            margin: 20px;
-            text-align: left;
-            font-size: 16px;
-            font-family: Arial;
-            font-weight: bold;
-            color: #413333; 
-            p, h2{
-                margin: 20px;
-            }
-            h2{
-                text-align: center;
-                font-size: 24px;
-                font-family: Arial;
-                font-weight: bold;
-            }
-            a{
-                margin: 20px;
-                text-align: left;
-                font-size: 16px;
-                font-family: Arial;
-                font-weight: bold;
-            }
-        }
        }
-
+    }
     footer{
         background-color: #fce4e4;
         margin: 10px;
