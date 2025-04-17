@@ -87,25 +87,41 @@ body{
             }
         }
         .Sobre{
-            margin: 30px;
+            background-color: #ccb5b5;
+            border-radius: 20px;
+            margin: 40px;
             text-align: left;
             font-size: 16px;
             font-family: Arial;
             font-weight: bold;
             color: #413333; 
-            p{
-                margin: 10px;
+            p, h2{
+                margin: 20px;
+            }
+            h2{
+                text-align: center;
+                font-size: 24px;
+                font-family: Arial;
+                font-weight: bold;
             }
         }
         .Biografia {
-            margin: 30px;
+            background-color: #ccb5b5;
+            border-radius: 20px;
+            margin: 20px;
             text-align: left;
             font-size: 16px;
             font-family: Arial;
             font-weight: bold;
             color: #413333; 
-            p{
-                margin: 10px;
+            p, h2{
+                margin: 20px;
+            }
+            h2{
+                text-align: center;
+                font-size: 24px;
+                font-family: Arial;
+                font-weight: bold;
             }
         }
        .Profile{
@@ -123,18 +139,87 @@ body{
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
         }
         }
+        .Polvo{
+            .polvo{
+                margin: 10px;
+                border-radius: 20px;
+                width: 500px;
+                height: auto;    
+            }
+        }
+        .creditos{
+            background-color: #ccb5b5;
+            border-radius: 20px;
+            margin: 20px;
+            text-align: left;
+            font-size: 16px;
+            font-family: Arial;
+            font-weight: bold;
+            color: #413333; 
+            p, h2{
+                margin: 20px;
+            }
+            h2{
+                text-align: center;
+                font-size: 24px;
+                font-family: Arial;
+                font-weight: bold;
+            }
+            a{
+                margin: 20px;
+                text-align: left;
+                font-size: 16px;
+                font-family: Arial;
+                font-weight: bold;
+            }
+        }
        }
 
     footer{
         background-color: #fce4e4;
         margin: 10px;
         border-radius: 20px;
-        height: 120px;
+        height: 140px;
         text-align: center;
         padding: 10px;
         font-size: 16px;
         font-family: Arial;
         font-weight: bold;
-        color: #413333; 
+        color: #413333;
+        p{
+            margin: 20px;
+        }
+        .Social-Media{
+            margin: 20px;
+            li{
+                display: inline-block;
+                text-decoration: none;
+                list-style: none;
+                margin: 0 10px;
+                
+                a{
+                    text-decoration: none;
+                    color: #413333;
+                    font-weight: bold;
+                    font-family: Arial;
+                    font-size: 16px;
+                    background-color: #ccb5b5;
+                    border-radius: 20px;
+                    padding: 10px 20px 10px 20px;
+                    transition: all 0.3s ease-in-out;
+                }
+                a:hover{
+                    text-decoration: none;
+                    color: #332828;
+                    font-weight: bold;
+                    font-family: Arial;
+                    font-size: 16px;
+                    background-color: #ad9999;
+                    border-radius: 20px;
+                    padding: 10px 20px 10px 20px;
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+        }
     }
 }
